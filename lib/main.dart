@@ -1,0 +1,11 @@
+import 'package:examapp/routes.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: app_routes,
+    ),
+  );
+}
